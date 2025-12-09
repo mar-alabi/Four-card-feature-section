@@ -21,8 +21,9 @@
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
-  padding: 1rem;
+  padding: 0;
   color: var(--grey500);
+  font-size: 16px;
 }
 
 .container {
@@ -53,7 +54,7 @@ body {
 }
 .card {
   background-color: var(--white);
-  padding: 2rem 1rem;
+  padding: 1.5rem 1rem;
   border-radius: 8px;
   border-top-style: solid;
   border-top-width: 5px;
@@ -103,7 +104,7 @@ body {
 @media (min-width: 1280px) {
   .grid-container {
     display: grid;
-    gap: 2rem;
+    gap: 1rem;
     grid-template-columns: repeat(3, 350px);
     grid-template-rows: repeat(2, 1fr);
     align-items: center;
